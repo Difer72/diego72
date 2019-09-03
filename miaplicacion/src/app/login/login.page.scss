@@ -1,0 +1,60 @@
+.welcome-card img {
+    max-height: 50vh;
+    overflow: hidden;
+}
+
+ion-title {
+    font-size: 35px;
+    color: #afe2ae;
+    text-align: center;
+    -webkit-text-stroke: 0.4px #b1afae;
+}
+
+#velero1 {
+    display: block;
+    margin: auto;
+    height: 230px;
+    width: 230px;
+}
+
+.lebel2 {
+    font-size: 32px;
+    color: #afe2ae;
+    text-align: center;
+    -webkit-text-stroke: 0.4px #b1afae;
+}
+
+ion-input {
+    margin: 10px;
+    color: #b1afae;
+    background-color: azure;
+    border: 0px;
+    height: 30px;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+ion-button {
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 80px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+select {
+    margin: 26px;
+    height: 35px;
+    width: 150px;
+    border-radius: 12px;
+    background-color: #3880ff;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
