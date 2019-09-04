@@ -1,8 +1,25 @@
-ion-row {
+ion-title {
+    font-size: 35px;
+    color: #afe2ae;
+    text-align: center;
+    -webkit-text-stroke: 0.4px #b1afae;
+}
+
+ion-row {}
+
+.menus {
+    height: 70px;
+    width: 80px;
+}
+
+.cuadros {
+    height: 130px;
+    width: 85px;
+    margin: 3px;
     background-color: rgb(98, 115, 209)
 }
 
-.menus {
-    height: 80px;
-    width: 80px;
+ion-col {
+    font-size: 14px;
+    text-align: center;
 }
