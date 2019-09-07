@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Sitios </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngFor="let sitio of lugares">
+        <ion-card-title>{{sitio.nombre}}</ion-card-title>
+        <img [src]="sitio.imagen">
+        <ion-card>{{sitio.Descripcion}}</ion-card>
+
+
+    </ion-card>
+
+
+
+
+
+
+
+</ion-content>

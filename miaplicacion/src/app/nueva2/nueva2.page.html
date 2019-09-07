@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>nueva2</ion-title>
+    </ion-toolbar>
+    <ion-title> super of heroes </ion-title>
+</ion-header>
+
+<ion-content>
+    <ul *ngFor="let super of heroes.members">
+        <span *ngIf="super.age > 30">
+        <li>{{super.name}}</li>
+        <li>{{super.powers}}</li>
+        
+      </span>
+
+    </ul>
+
+</ion-content>
